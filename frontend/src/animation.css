@@ -1,0 +1,24 @@
+.count-enter {
+    background: #f00;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    /*-webkit-transform: translateY(100%);
+            transform: translateY(100%);*/
+  }
+  .count-enter.count-enter-active {
+    background: #ff0;
+    /*-webkit-transform: translateY(0);
+            transform: translateY(0);*/
+  }
+  .count-exit {
+    background: #000;
+    /*-webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transition: 0.5s;*/
+    transition: 0.5s;
+  }
+  /*.count-exit.count-exit-active {
+    background: #008000;
+    /*-webkit-transform: translateY(-100%) scale(3);
+            transform: translateY(-100%) scale(3);
+  }*/
