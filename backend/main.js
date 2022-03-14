@@ -3,6 +3,7 @@ var express = require('express')
 var app = express()
 var cors = require("cors")
 
+app.use(express.static('public/'));
 const server = require("http").Server(app)
 const io = require("socket.io")(server, {cors : { origin: "http://localhost:3000", methods : ["GET", "POST"]}})
 
@@ -68,6 +69,10 @@ io.on('connection', function (socket) {
     }    
   })
 })
+
+app.get('*', (req,res) => {
+  res.sendFile('public/index.html');
+});
 
 
 

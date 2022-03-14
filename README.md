@@ -25,16 +25,13 @@ npm install
 node main.js
 ```
 
-### 4. Start another terminal window in the `frontend` subfolder and run
-```
-npm install
-npm start
-```
+### 4. Point your browser to `http://localhost:8080/`
+
 
 ### 5. Once the frontend is running, fill in the hostname, database, username and password for your MongoDB instance and press `connect`
 !["Connection"](connection.png)
 
-### 6. Once sucessfully connected, you can hide the connection configuration using the `show/hide`button. You can now see a representaion of your shards and can insert documents using the `insert` button. 
+### 6. Once sucessfully connected, you can hide the connection configuration using the `show/hide` button. You can now see a representaion of your shards and can insert documents using the `insert` button. 
 !["insert"](insert.png)
 
 
