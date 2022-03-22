@@ -19,21 +19,21 @@ The backends is responsible for communicating with the MongoDB cluster, the back
 
 ### 2: Create a database and a first collection, you can name the database whatever you like, but the collection needs to be called `demo_data`.  The Atlas UI will instruct you to create a compound index on the field `location`, you could optionally add the `tracking_num` field as a secondary field.   
 
-### 2. Clone this repo
+### 3. Clone this repo
 
-### 3. Start a terminal in the `backend` subfolder and run 
+### 4. Start a terminal in the `backend` subfolder and run 
 ```
 npm install
 node main.js
 ```
 
-### 4. Point your browser to `http://localhost:8080/`
+### 5. Point your browser to `http://localhost:8080/`
 
 
-### 5. Once the frontend is running, fill in the hostname, database, username and password for your MongoDB instance and press `connect`
+### 6. Once the frontend is running, fill in the hostname, database, username and password for your MongoDB instance and press `connect`
 !["Connection"](connection.png)
 
-### 6. Once sucessfully connected, you can hide the connection configuration using the `show/hide` button. You can now see a representaion of your shards and can insert documents using the `insert` button. 
+### 7. Once sucessfully connected, you can hide the connection configuration using the `show/hide` button. You can now see a representaion of your shards and can insert documents using the `insert` button. 
 !["insert"](insert.png)
 
 
