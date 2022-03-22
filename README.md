@@ -17,6 +17,8 @@ The backends is responsible for communicating with the MongoDB cluster, the back
 
 ### 1. Start by deploying a MongoDB Zone sharded cluster, see [Global clusters](https://docs.atlas.mongodb.com/tutorial/create-global-cluster/) documentation. 
 
+### 2: Create a database and a first collection, you can name the database whatever you like, but the collection needs to be called `demo_data`.  The Atlas UI will instruct you to create a compound index on the field `location`, you could optionally add the `tracking_num` field as a secondary field.   
+
 ### 2. Clone this repo
 
 ### 3. Start a terminal in the `backend` subfolder and run 
